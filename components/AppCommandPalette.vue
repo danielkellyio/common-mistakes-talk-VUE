@@ -9,28 +9,8 @@ const pages = [
   { id: 2.5, label: "v-for Key Example 3", path: "/1-v-for-key-z" },
   {
     id: 3,
-    label: "Non Reactive Deps Example (Obvious)",
-    path: "/2-non-reactive-deps-message",
-  },
-  {
-    id: 4,
-    label: "Non Reactive Deps Example (Date)",
-    path: "/2-non-reactive-deps-z-date-1",
-  },
-  {
-    id: 4,
-    label: "Non Reactive Deps Example (useTimeAgo)",
-    path: "/2-non-reactive-deps-z-date-2",
-  },
-  {
-    id: 5,
-    label: "Fetching Data",
-    path: "/3-fetch-example-1",
-  },
-  {
-    id: 6,
-    label: "Fetching Data (End)",
-    path: "/3-fetch-example-end",
+    label: "Non Reactive Deps Example",
+    path: "/2-non-reactive-deps-begin",
   },
 ];
 const selected = ref();
