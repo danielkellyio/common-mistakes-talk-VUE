@@ -4,9 +4,7 @@ const playing = computed(() => !videoEl.value?.paused);
 </script>
 <template>
   <div>
-    <h1 class="text-7xl flex justify-center gap-2 items-center">
-      Non-Reactive Deps
-    </h1>
+    <PageHeading>Non-Reactive Deps</PageHeading>
     <div class="flex justify-center mt-10">
       <div class="relative aspect-video w-[900px]">
         <video ref="videoEl" class="" src="/fail.mp4"></video>
