@@ -11,7 +11,7 @@ const data = ref({
     <pre>{{ data }}</pre>
     <hr class="my-10 block" />
     <h1 class="mt-10">Child Component</h1>
-    <FormComponent :data="data"></FormComponent>
+    <FormComponent :data="data" @submit="data = $event"></FormComponent>
   </section>
 </template>
 

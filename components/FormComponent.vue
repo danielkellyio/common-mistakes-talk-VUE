@@ -1,9 +1,13 @@
 <script setup lang="ts">
-const props = defineProps<{
+type Props = {
   data: {
     username: string;
     password: string;
   };
+};
+defineProps<Props>();
+const emit = defineEmits<{
+  submit: [payload: Props["data"]];
 }>();
 
 // still not resolved if you convert to local data
@@ -11,7 +15,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <form>
+  <form @submit.prevent="$emit('submit', data)">
     <fieldset>
       <label for="username" class="block">Username</label>
       <input id="username" v-model="data.username" />
