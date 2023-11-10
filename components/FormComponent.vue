@@ -21,5 +21,6 @@ const props = defineProps<{
       <label class="block" for="password">Password</label>
       <input id="password" type="password" v-model="data.password" />
     </fieldset>
+    <UButton size="xl" class="mt-5" type="submit">Login</UButton>
   </form>
 </template>
