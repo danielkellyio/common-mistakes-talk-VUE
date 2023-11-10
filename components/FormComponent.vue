@@ -5,7 +5,7 @@ type Props = {
     password: string;
   };
 };
-defineProps<Props>();
+const props = defineProps<Props>();
 const emit = defineEmits<{
   submit: [payload: Props["data"]];
 }>();
