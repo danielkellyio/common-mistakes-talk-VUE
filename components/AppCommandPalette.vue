@@ -1,5 +1,3 @@
-import { _scale } from '#tailwind-config/theme'; import { _scale } from
-'#tailwind-config/theme';
 <script setup>
 const isOpen = ref(false);
 const pages = [
@@ -24,11 +22,21 @@ const pages = [
   },
   {
     id: 7,
+    label: "Mistake #3 Bonus: Watch Depth Ref",
+    path: "/3-z-watch-depth-ref",
+  },
+  {
+    id: 8,
+    label: "Mistake #3 Bonus: Watch Depth Reactive",
+    path: "/3-z-watch-depth-reactive",
+  },
+  {
+    id: 9,
     label: "Mistake #4:  Mutating Props 1",
     path: "/4-mutating-props-1-begin",
   },
   {
-    id: 8,
+    id: 10,
     label: "Mistake #4: Mutating Props 2",
     path: "/4-mutating-props-2-begin",
   },
