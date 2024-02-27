@@ -32,6 +32,10 @@ const pokemons = ref([
     name: "zubat",
     id: crypto.randomUUID(),
   },
+  {
+    name: "bulbasaur",
+    id: crypto.randomUUID(),
+  },
 ]);
 
 function randomId() {
