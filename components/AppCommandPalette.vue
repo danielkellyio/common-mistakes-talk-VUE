@@ -3,12 +3,21 @@ const isOpen = ref(false);
 const pages = [
   { id: 0, label: "Home", path: "/" },
   { id: 1, label: "Mistake #1: v-for Key 1", path: "/1-v-for-key-no-state" },
-  { id: 2, label: "Mistake #1: v-for Key 2", path: "/1-v-for-key-with-state" },
+  {
+    id: 2,
+    label: "Mistake #1: v-for Key 2",
+    path: "/1-v-for-key-with-state-1",
+  },
   { id: 3, label: "Mistake #1: v-for Key 3", path: "/1-v-for-key-z" },
   {
     id: 4,
     label: "Mistake #2: Non Reactive Deps Example",
     path: "/2-non-reactive-deps-begin",
+  },
+  {
+    id: 4.5,
+    label: "Mistake #2: Non Reactive Deps Example End",
+    path: "/2-non-reactive-deps-end",
   },
   {
     id: 5,
