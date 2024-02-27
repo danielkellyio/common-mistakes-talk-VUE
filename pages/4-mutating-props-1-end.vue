@@ -2,7 +2,11 @@
 const data = ref("");
 </script>
 <template>
-  <h1>Data in Parent</h1>
-  <pre>{{ data }}</pre>
-  <MyInput2 v-model="data" />
+  <div class="flex items-center justify-center h-screen scale-150">
+    <div>
+      <h1 class="text-2xl">Data in Parent</h1>
+      <pre>{{ data }}</pre>
+      <MyInput2 v-model="data" />
+    </div>
+  </div>
 </template>
