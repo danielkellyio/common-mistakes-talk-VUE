@@ -17,10 +17,10 @@ watch(
 </script>
 
 <template>
-  <div class="h-screen flex items-center justify-center">
+  <div class="h-screen flex items-center justify-center scale-150">
     <div>
-      <h1 class="text-lg">Ref</h1>
-      <UInput variant="outline" size="2xl" v-model="data.username" />
+      <h1 class="text-3xl">Ref</h1>
+      <UInput variant="outline" size="xl" v-model="data.username" />
     </div>
   </div>
 </template>
