@@ -18,6 +18,9 @@ watch(
 
 <template>
   <div class="h-screen flex items-center justify-center">
-    <UInput variant="outline" size="2xl" v-model="data.username" />
+    <div>
+      <h1 class="text-lg">Ref</h1>
+      <UInput variant="outline" size="2xl" v-model="data.username" />
+    </div>
   </div>
 </template>
