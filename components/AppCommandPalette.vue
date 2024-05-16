@@ -10,6 +10,11 @@ const pages = [
   },
   { id: 3, label: "Mistake #1: v-for Key 3", path: "/1-v-for-key-z" },
   {
+    id: 3.5,
+    label: "Mistake #2: LocalStorage Example",
+    path: "/2-non-reactive-deps-localstorage",
+  },
+  {
     id: 4,
     label: "Mistake #2: Non Reactive Deps Example",
     path: "/2-non-reactive-deps-begin",
